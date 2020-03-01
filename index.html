@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slider/jquery.bxslider.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/slider.css">
+    <title>Yllo Luis's WebPage!</title>
+</head>
+
+<body>
+    <style>
+        .navbar-dark .nav-link {
+            color: white;
+        }
+        
+        .btn-circle.btn-md { 
+            width: 50px; 
+            height: 50px; 
+            padding: 7px 10px; 
+            border-radius: 25px; 
+            font-size: 10px; 
+            text-align: center; 
+        } 
+    </style>
+    <div class="container-fluid" style="padding: 0%;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+            <ul class="nav">
+                <a class="navbar-brand" href="#">
+                    <img src="img/favicon.png" alt="Yllo Luis Logo" style="height: 35px;">
+                </a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Historia</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Como comecei</a>
+                        <a class="dropdown-item" href="#">SENAI</a>
+                        <a class="dropdown-item" href="#">Universidade</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Desenvolvimento</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Desenvolvimento em java</a>
+                        <a class="dropdown-item" href="#">Desenvolvimento em Pyhton</a>
+                        <a class="dropdown-item" href="#">Desenvolvimento em Ruby</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Opiniões</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Hardware</a>
+                        <a class="dropdown-item" href="#">Software</a>
+                        <div class = "dropdown-divider"></div>
+                        <a class="dropdown-item" href="#" style="color: red;">Politica</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="d-flex justify-content-end">
+                <div class="col">
+                    <a name="github" id="button" class="btn btn-light btn-circle btn-md" href="https://github.com/NETfellow" role="button"><img
+                            src="img/github_icon.png" alt="Github logo" style="height: 40px;
+                                                                               margin-left: -5px;
+                                                                               margin-top: -3px;"></a>
+                </div>
+                <div class="col">
+                    <a name="gitlab" id="button" class="btn btn-light btn-circle btn-md" href="https://gitlab.com/Ylloluis" role="button"><img
+                            src="img/gitlab_icon.png" alt="Gitlab logo" style="height: 30px;
+                                                                               margin-top: 2px;"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class = "container">
+        <div class = "parent-block">
+            <div class="slider">
+                <div><img src = "img/code.jpg"></div>
+                <div><img src = "img/code2.jpg"></div>
+            </div>	
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <script src="Scripts/js/jquery.bxslider.js"></script>
+		<script src="Scripts/js/main.js"></script>
+	    <script src="Scripts/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+			
+		<script>
+				$(document).ready(function(){
+				  $('.slider').bxSlider();
+				});
+		</script>
+</body>
+
+</html>
