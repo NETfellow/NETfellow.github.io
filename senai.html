@@ -22,15 +22,15 @@ and open the template in the editor.
         .navbar-dark .nav-link {
             color: white;
         }
-        
-        .btn-circle.btn-md { 
-            width: 50px; 
-            height: 50px; 
-            padding: 7px 10px; 
-            border-radius: 25px; 
-            font-size: 10px; 
-            text-align: center; 
-        } 
+
+        .btn-circle.btn-md {
+            width: 50px;
+            height: 50px;
+            padding: 7px 10px;
+            border-radius: 25px;
+            font-size: 10px;
+            text-align: center;
+        }
     </style>
     <!--Menu principal, Uso de container-fluid com modificação de padding(Original 10%, atual 0%) tentativa de uso do flexbox(falhou)-->
     <div class="container-fluid" style="padding: 0%;">
@@ -60,7 +60,7 @@ and open the template in the editor.
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Hardware</a>
                         <a class="dropdown-item" href="#">Software</a>
-                        <div class = "dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#" style="color: red;">Politica</a>
                     </div>
                 </li>
@@ -68,14 +68,16 @@ and open the template in the editor.
             <!--Uso da classe flexbox aqui, o posicionamento não funcinou como desejado-->
             <div class="d-flex justify-content-end">
                 <div class="col">
-                    <a name="github" id="button" class="btn btn-light btn-circle btn-md" href="https://github.com/NETfellow" role="button"><img
-                            src="img/github_icon.png" alt="Github logo" style="height: 40px;
+                    <a name="github" id="button" class="btn btn-light btn-circle btn-md"
+                        href="https://github.com/NETfellow" role="button"><img src="img/github_icon.png"
+                            alt="Github logo" style="height: 40px;
                                                                                margin-left: -5px;
                                                                                margin-top: -3px;"></a>
                 </div>
                 <div class="col">
-                    <a name="gitlab" id="button" class="btn btn-light btn-circle btn-md" href="https://gitlab.com/Ylloluis" role="button"><img
-                            src="img/gitlab_icon.png" alt="Gitlab logo" style="height: 30px;
+                    <a name="gitlab" id="button" class="btn btn-light btn-circle btn-md"
+                        href="https://gitlab.com/Ylloluis" role="button"><img src="img/gitlab_icon.png"
+                            alt="Gitlab logo" style="height: 30px;
                                                                                margin-top: 2px;"></a>
                 </div>
             </div>
@@ -83,31 +85,46 @@ and open the template in the editor.
     </div>
 
     <!--texto aqui-->
-    <div class = "container">
-        <p class = "text-center">
-            <br>
-            <br>
-            <h2>Descobrindo a área via SENAI</h2>
-            
-            Depois do termino do ensino médio uma pergunta que assusta todo jovem brasileiro é: O que você vai fazer agora? Que área vai seguir?
-            <br>
-            Nenhuma familia brasileira aceita um "não irei fazer faculdade" a não ser que a situação não permita uma faculdade(Universidade) particular ou publica, mas se a familia pode pagar por uma faculdade ou o estudante ter o brio alto o suficiente para uma universidade publica uma pergunta resta.
-            <br>
-            <br>
-            Qual área seguir?
-            <br>
-            <br>
-            É uma pergunta simples mas assustadora, e para este que vos digita isso não foi exceção, o Yllo de 2016 estava de olho em duas áreas bem distintas, a área de desenvolvimento de sofware ou a área de ensino, cada uma tem seus prós e contras.
-            <br>
-            <br>
-            A decisão foi experimentar o que cada uma tinha a oferecer, desenvolvimento de sistemas? Curso técnico. Decisão sabia? Até que sim, os anos do SENAI foram divertidos pessoalmente e academicamente aprendi muito e me apaixonei pela área, o resultado? Não experimentei como era ensinar, apenas terminei o curso e fui direto para a universidade.
-            <br>
-            <br>
-            O pequeno desenvolvedor em mim já mostrava as garras durante o periódo escolar veja abaixo um dos vídeos produzidos naquela época.
-            <br>
-            <br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mPNhsZXQ0js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </p>
+    <div class="container">
+        <div class="shadow p-3 mb-5 bg-white rounded">
+            <p class="text-center">
+                <br>
+                <br>
+                <h2>Descobrindo a área via SENAI</h2>
+
+                Depois do termino do ensino médio uma pergunta que assusta todo jovem brasileiro é: O que você vai fazer
+                agora? Que área vai seguir?
+                <br>
+                Nenhuma familia brasileira aceita um "não irei fazer faculdade" a não ser que a situação não permita uma
+                faculdade(Universidade) particular ou publica, mas se a familia pode pagar por uma faculdade ou o
+                estudante ter o brio alto o suficiente para uma universidade publica uma pergunta resta.
+                <br>
+                <br>
+                Qual área seguir?
+                <br>
+                <br>
+                É uma pergunta simples mas assustadora, e para este que vos digita isso não foi exceção, o Yllo de 2016
+                estava de olho em duas áreas bem distintas, a área de desenvolvimento de sofware ou a área de ensino,
+                cada uma tem seus prós e contras.
+                <br>
+                <br>
+                A decisão foi experimentar o que cada uma tinha a oferecer, desenvolvimento de sistemas? Curso técnico.
+                Decisão sabia? Até que sim, os anos do SENAI foram divertidos pessoalmente e academicamente aprendi
+                muito e me apaixonei pela área, o resultado? Não experimentei como era ensinar, apenas terminei o curso
+                e fui direto para a universidade.
+                <br>
+                <br>
+                O pequeno desenvolvedor em mim já mostrava as garras durante o periódo escolar veja abaixo um dos vídeos
+                produzidos naquela época.
+                <br>
+                <br>
+                <div class = "embed-responsive embed-responsive-16by9">
+                    <iframe class = "embed-responsive-item" src="https://www.youtube.com/embed/mPNhsZXQ0js" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div> 
+            </p>
+        </div>
     </div>
     <!--Declaração de scripts-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

@@ -22,15 +22,15 @@ and open the template in the editor.
         .navbar-dark .nav-link {
             color: white;
         }
-        
-        .btn-circle.btn-md { 
-            width: 50px; 
-            height: 50px; 
-            padding: 7px 10px; 
-            border-radius: 25px; 
-            font-size: 10px; 
-            text-align: center; 
-        } 
+
+        .btn-circle.btn-md {
+            width: 50px;
+            height: 50px;
+            padding: 7px 10px;
+            border-radius: 25px;
+            font-size: 10px;
+            text-align: center;
+        }
     </style>
     <!--Menu principal, Uso de container-fluid com modificação de padding(Original 10%, atual 0%) tentativa de uso do flexbox(falhou)-->
     <div class="container-fluid" style="padding: 0%;">
@@ -60,7 +60,7 @@ and open the template in the editor.
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Hardware</a>
                         <a class="dropdown-item" href="#">Software</a>
-                        <div class = "dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#" style="color: red;">Politica</a>
                     </div>
                 </li>
@@ -68,14 +68,16 @@ and open the template in the editor.
             <!--Uso da classe flexbox aqui, o posicionamento não funcinou como desejado-->
             <div class="d-flex justify-content-end">
                 <div class="col">
-                    <a name="github" id="button" class="btn btn-light btn-circle btn-md" href="https://github.com/NETfellow" role="button"><img
-                            src="img/github_icon.png" alt="Github logo" style="height: 40px;
+                    <a name="github" id="button" class="btn btn-light btn-circle btn-md"
+                        href="https://github.com/NETfellow" role="button"><img src="img/github_icon.png"
+                            alt="Github logo" style="height: 40px;
                                                                                margin-left: -5px;
                                                                                margin-top: -3px;"></a>
                 </div>
                 <div class="col">
-                    <a name="gitlab" id="button" class="btn btn-light btn-circle btn-md" href="https://gitlab.com/Ylloluis" role="button"><img
-                            src="img/gitlab_icon.png" alt="Gitlab logo" style="height: 30px;
+                    <a name="gitlab" id="button" class="btn btn-light btn-circle btn-md"
+                        href="https://gitlab.com/Ylloluis" role="button"><img src="img/gitlab_icon.png"
+                            alt="Gitlab logo" style="height: 30px;
                                                                                margin-top: 2px;"></a>
                 </div>
             </div>
@@ -83,20 +85,25 @@ and open the template in the editor.
     </div>
 
     <!--texto aqui-->
-    <div class = "container">
-        <p class = "text-center">
-            <br>
-            <br>
-            <h2>Existindo e se divertindo na área via universidade</h2>
-            
-            Estou feliz com a escolha? Muito! A sensação de aprender algo que se sente vontade é algo incrivel.
-            <br>
-            A universidade abre a mente e força os alunos a procurarem e aprenderem algo parecido com o curso técnico porém potencializado ao máximo.
-            <br>
-            Recomendo que acessem os perfis tanto do gitlab quanto do github se tem algum projeto que queira dar um feedback ou contribuir sinta-se a vontade!
-            <br>
-            Não importa o nível de conhecimento estamos todos na área para aprender e divertir.
-        </p>
+    <div class="container">
+        <div class="shadow p-3 mb-5 bg-white rounded">
+            <p class="text-center">
+                <h2>Existindo e se divertindo na área via universidade</h2>
+                <br>
+                Estou feliz com a escolha? Muito! A sensação de aprender algo que se sente vontade é algo incrivel.
+                <br>
+                <br>
+                A universidade abre a mente e força os alunos a procurarem e aprenderem algo parecido com o curso
+                técnico porém potencializado ao máximo.
+                <br>
+                <br>
+                Recomendo que acessem os perfis tanto do gitlab quanto do github se tem algum projeto que queira dar um
+                feedback ou contribuir sinta-se a vontade!
+                <br>
+                <br>
+                Não importa o nível de conhecimento estamos todos na área para aprender e divertir.
+            </p>
+        </div>
     </div>
     <!--Declaração de scripts-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
