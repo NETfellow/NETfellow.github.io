@@ -12,7 +12,6 @@ and open the template in the editor.
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/slider/jquery.bxslider.css">
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/slider.css">
     <title>Yllo Luis's WebPage!</title>
 </head>
 
@@ -31,6 +30,7 @@ and open the template in the editor.
             font-size: 10px; 
             text-align: center; 
         } 
+
     </style>
     <!--Menu principal, Uso de container-fluid com modificação de padding(Original 10%, atual 0%) tentativa de uso do flexbox(falhou)-->
     <div class="container-fluid" style="padding: 0%;">
@@ -47,35 +47,26 @@ and open the template in the editor.
                         <a class="dropdown-item" href="university.html">Universidade</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Desenvolvimento</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Desenvolvimento em java</a>
-                        <a class="dropdown-item" href="#">Desenvolvimento em Pyhton</a>
-                        <a class="dropdown-item" href="#">Desenvolvimento em Ruby</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="my_progress.html">Meus poderes</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Opiniões</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Hardware</a>
-                        <a class="dropdown-item" href="#">Software</a>
-                        <div class = "dropdown-divider"></div>
-                        <a class="dropdown-item" href="#" style="color: red;">Politica</a>
-                    </div>
-                </li>
+                <li class = "nav-item">
+                    <a class ="nav-link" href="#">Projetos</a>
+                </li>   
             </ul>
             <!--Uso da classe flexbox aqui, o posicionamento não funcinou como desejado-->
             <div class="d-flex justify-content-end">
                 <div class="col">
-                    <a name="github" id="button" class="btn btn-light btn-circle btn-md" href="https://github.com/NETfellow" role="button"><img
-                            src="img/github_icon.png" alt="Github logo" style="height: 40px;
+                    <a name="github" id="button" class="btn btn-light btn-circle btn-md"
+                        href="https://github.com/NETfellow" role="button"><img src="img/github_icon.png"
+                            alt="Github logo" style="height: 40px;
                                                                                margin-left: -5px;
                                                                                margin-top: -3px;"></a>
                 </div>
                 <div class="col">
-                    <a name="gitlab" id="button" class="btn btn-light btn-circle btn-md" href="https://gitlab.com/Ylloluis" role="button"><img
-                            src="img/gitlab_icon.png" alt="Gitlab logo" style="height: 30px;
+                    <a name="gitlab" id="button" class="btn btn-light btn-circle btn-md"
+                        href="https://gitlab.com/Ylloluis" role="button"><img src="img/gitlab_icon.png"
+                            alt="Gitlab logo" style="height: 30px;
                                                                                margin-top: 2px;"></a>
                 </div>
             </div>
@@ -91,7 +82,24 @@ and open the template in the editor.
             </div>	
         </div>
     </div>
+
+    <div class = "container">
+        <p class = "text-center display-3" style="font-size: x-large;">
+            Bem-vindo viajante. Por favor descanse neste pequeno recanto da internet comigo <i class="fas fa-smile-wink"></i>
+        </p>
+    </div>
+
+    <div class = "container">
+        <br>
+        <div class = "d-flex justify-content-center">    
+            <audio controls loop> 
+                <source src = "Audio/Super Mario World Game Over LoFi Hip Hop Remix.mp3" type = "audio/mpeg">
+            </audio>
+        </div>
+    </div>
     <!--Declaração de scripts-->
+
+    <script src="Scripts/Script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -104,6 +112,7 @@ and open the template in the editor.
         <script src="Scripts/js/jquery.bxslider.js"></script>
 		<script src="Scripts/js/main.js"></script>
 	    <script src="Scripts/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://kit.fontawesome.com/9d5f78b023.js" crossorigin="anonymous"></script>
         
         <!--"Starter" do slider-->
 		<script>
